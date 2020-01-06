@@ -15,10 +15,6 @@
     background-color: var(--text) !important;
 }
 
-.back-accent {
-    background-color: var(--background-layer) !important;
-}
-
 .back-warning {
     background-color: var(--warning) !important;
 }

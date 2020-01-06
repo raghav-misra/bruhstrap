@@ -1,20 +1,4 @@
 
-:root {
-    /* Background/foregrounds */
-    --background: white;
-    --text: #363732;
-
-    /* State Colors */
-    --primary: #0582CA;
-    --link: #0582CA;
-    --danger: #EF3E36;
-    --success: #06D6A0;
-    --warning: #E6C229;
-
-    /* Misc */
-    --radius: 0.25rem;
-}
-
 /* Reset */
 * {
     padding: 0;
@@ -86,10 +70,6 @@ p, button, a {
 
 .back-dark {
     background-color: #363732 !important;
-}
-
-.back-accent {
-    background-color: var(--background-layer) !important;
 }
 
 .back-warning {
@@ -207,12 +187,67 @@ a {
     margin: 0.5rem 0;
 }
 [b-hover] {
-  transition: transform 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 [b-hover*="zoom"]:hover {
   transform: scale(1.125);
 }
 
+/* Back Color Changes */
+[b-hover*="back-primary"]:hover {
+  background-color: #0582CA !important;
+}
 
-     
+[b-hover*="back-danger"]:hover {
+  background-color: #EF3E36 !important;
+}
+
+[b-hover*="back-success"]:hover {
+  background-color: #06D6A0 !important;
+}
+
+[b-hover*="back-dark"]:hover {
+  background-color: #363732 !important;
+}
+
+[b-hover*="back-warning"]:hover {
+  background-color: #E6C229 !important;
+}
+
+[b-hover*="back-light"]:hover {
+  background-color: white !important;
+}
+
+[b-hover*="back-none"]:hover {
+  background-color: transparent !important;
+}
+
+/* Color Changes */
+[b-hover*="color-primary"]:hover {
+  color: #0582CA !important;
+}
+
+[b-hover*="color-danger"]:hover {
+  color: #EF3E36 !important;
+}
+
+[b-hover*="color-success"]:hover {
+  color: #06D6A0 !important;
+}
+
+[b-hover*="color-dark"]:hover {
+  color: #363732 !important;
+}
+
+[b-hover*="color-warning"]:hover {
+  color: #E6C229 !important;
+}
+
+[b-hover*="color-light"]:hover {
+  color: white !important;
+}
+
+[b-hover*="color-none"]:hover {
+  color: transparent !important;
+}
