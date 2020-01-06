@@ -1,0 +1,24 @@
+/* Button */
+button, .button {
+    border-radius: var(--radius);
+    padding: 0.5rem;
+    background-color: var(--background);
+    color: var(--text);
+    border: none;
+    display: inline-block;
+}
+
+/* hr */
+hr {
+    height: 0;
+    border: none;
+    border-top: 1px solid var(--text);
+    margin: 0.5rem 0;
+}
+
+
+/* a */
+a {
+    color: var(--link);
+    margin: 0.5rem 0;
+}

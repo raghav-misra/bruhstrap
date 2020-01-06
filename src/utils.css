@@ -1,0 +1,104 @@
+/* Back Color Classes */
+.back-primary {
+    background-color: var(--primary) !important;
+}
+
+.back-danger {
+    background-color: var(--danger) !important;
+}
+
+.back-success {
+    background-color: var(--success) !important;
+}
+
+.back-dark {
+    background-color: var(--text) !important;
+}
+
+.back-accent {
+    background-color: var(--background-layer) !important;
+}
+
+.back-warning {
+    background-color: var(--warning) !important;
+}
+
+.back-light {
+    background-color: var(--background) !important;
+}
+
+.back-none {
+    background-color: transparent !important;
+}
+
+/* Text color classes */
+.color-primary {
+    color: var(--primary) !important;
+}
+
+.color-danger {
+    color: var(--danger) !important;
+}
+
+.color-success {
+    color: var(--success) !important;
+}
+
+.color-dark {
+    color: var(--text) !important;
+}
+
+.color-warning {
+    color: var(--warning) !important;
+}
+
+.color-light {
+    color: var(--background) !important;
+}
+
+/* Font styles */
+.font-bold {
+    font-weight: bold !important;
+}
+
+.font-italic {
+    font-style: italic !important;
+}
+
+/* Alignments */
+.align-left {
+    text-align: left !important;
+}
+
+.align-center {
+    text-align: center !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+/* Outlines */
+.outline-primary {
+    border: 1px var(--primary) solid !important;
+}
+
+.outline-danger {
+    border: 1px var(--danger) solid !important;
+}
+
+.outline-success {
+    border: 1px var(--success) solid !important;
+}
+
+.outline-dark {
+    border: 1px var(--text) solid !important;
+}
+
+.outline-warning {
+    border: 1px var(--warning) solid !important;
+}
+
+.outline-light {
+    border: 1px var(--background) solid !important;
+}

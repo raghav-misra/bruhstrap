@@ -1,0 +1,10 @@
+[b-hover] {
+  transition: transform 0.25s ease-in-out;
+}
+
+[b-hover*="zoom"]:hover {
+  transform: scale(1.125);
+}
+
+
+     
