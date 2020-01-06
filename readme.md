@@ -1,2 +1,2 @@
 # Bruhstrap:
-A CSS-only, minimal Bootstrap imitation focused on utility classes. 
+A CSS-only, minimal Bootstrap-esque library focused on utility classes. 
