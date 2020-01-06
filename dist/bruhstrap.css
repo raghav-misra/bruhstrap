@@ -6,7 +6,7 @@
 
     /* State Colors */
     --primary: #0582CA;
-    --link: var(--primary);
+    --link: #0582CA;
     --danger: #EF3E36;
     --success: #06D6A0;
     --warning: #E6C229;
@@ -20,11 +20,12 @@
     padding: 0;
     font-weight: 400;
     margin: 0;
-    color: var(--text);
+    color: #363732;
+    box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body, html {
-    background-color: var(--background);
+    background-color: white;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -72,19 +73,19 @@ p, button, a {
 
 /* Back Color Classes */
 .back-primary {
-    background-color: var(--primary) !important;
+    background-color: #0582CA !important;
 }
 
 .back-danger {
-    background-color: var(--danger) !important;
+    background-color: #EF3E36 !important;
 }
 
 .back-success {
-    background-color: var(--success) !important;
+    background-color: #06D6A0 !important;
 }
 
 .back-dark {
-    background-color: var(--text) !important;
+    background-color: #363732 !important;
 }
 
 .back-accent {
@@ -92,11 +93,11 @@ p, button, a {
 }
 
 .back-warning {
-    background-color: var(--warning) !important;
+    background-color: #E6C229 !important;
 }
 
 .back-light {
-    background-color: var(--background) !important;
+    background-color: white !important;
 }
 
 .back-none {
@@ -105,27 +106,27 @@ p, button, a {
 
 /* Text color classes */
 .color-primary {
-    color: var(--primary) !important;
+    color: #0582CA !important;
 }
 
 .color-danger {
-    color: var(--danger) !important;
+    color: #EF3E36 !important;
 }
 
 .color-success {
-    color: var(--success) !important;
+    color: #06D6A0 !important;
 }
 
 .color-dark {
-    color: var(--text) !important;
+    color: #363732 !important;
 }
 
 .color-warning {
-    color: var(--warning) !important;
+    color: #E6C229 !important;
 }
 
 .color-light {
-    color: var(--background) !important;
+    color: white !important;
 }
 
 /* Font styles */
@@ -152,27 +153,27 @@ p, button, a {
 
 /* Outlines */
 .outline-primary {
-    border: 1px var(--primary) solid !important;
+    border: 1px #0582CA solid !important;
 }
 
 .outline-danger {
-    border: 1px var(--danger) solid !important;
+    border: 1px #EF3E36 solid !important;
 }
 
 .outline-success {
-    border: 1px var(--success) solid !important;
+    border: 1px #06D6A0 solid !important;
 }
 
 .outline-dark {
-    border: 1px var(--text) solid !important;
+    border: 1px #363732 solid !important;
 }
 
 .outline-warning {
-    border: 1px var(--warning) solid !important;
+    border: 1px #E6C229 solid !important;
 }
 
 .outline-light {
-    border: 1px var(--background) solid !important;
+    border: 1px white solid !important;
 }
 /* Containers */
 .container {
@@ -183,10 +184,10 @@ p, button, a {
     
 /* Button */
 button, .button {
-    border-radius: var(--radius);
+    border-radius: 0.25rem;
     padding: 0.5rem;
-    background-color: var(--background);
-    color: var(--text);
+    background-color: white;
+    color: #363732;
     border: none;
     display: inline-block;
 }
@@ -195,14 +196,14 @@ button, .button {
 hr {
     height: 0;
     border: none;
-    border-top: 1px solid var(--text);
+    border-top: 1px solid #363732;
     margin: 0.5rem 0;
 }
 
 
 /* a */
 a {
-    color: var(--link);
+    color: #0582CA;
     margin: 0.5rem 0;
 }
 [b-hover] {

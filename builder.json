@@ -1,0 +1,22 @@
+{
+    "inDir": "src",
+    "outDir": "dist",
+    "outFilename": "bruhstrap",
+
+    "buildOrder": [
+        "main", "defaults", "utils", "layout", "elements", "transitions"
+    ],
+
+    "cssVars": {
+        "background": "white",
+        "text": "#363732",
+
+        "primary": "#0582CA",
+        "link": "#0582CA",
+        "danger": "#EF3E36",
+        "success": "#06D6A0",
+        "warning": "#E6C229",
+
+        "radius": "0.25rem"
+    }
+}
